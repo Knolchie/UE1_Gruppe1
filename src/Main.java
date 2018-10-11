@@ -3,8 +3,9 @@ public class Main {
     public static void main(String[] args) {
 
         String vorname = "Matteo";
-        int alter = 19;
+        byte alter = 19;
+        String nachname= "Haas ";
 
-        System.out.println("Hello " + vorname + "! du bist " + alter + " Jahre alt. ");
+        System.out.println("Hello " + vorname + " "+ nachname +"! du bist " + alter + " Jahre alt. ");
     }
 }
